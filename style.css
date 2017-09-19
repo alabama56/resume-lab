@@ -1,0 +1,205 @@
+* {
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+      
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+.main {
+    margin: 0em 6em;
+    
+}
+
+.header {
+    height: 4em;
+    background-color: #A3C8CB;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+nav {
+    transform: translateY(110%);
+}
+
+a {
+    color: white;
+    margin: 0 1em;
+}
+
+.about-me {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.about-me p {
+    text-align: left;
+    display: table-cell;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.p1 {
+    padding-right: 0em !important;
+}
+
+.skills{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.skills p {
+    text-align: left;
+    display: table-cell;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.projects .project-title {
+    text-align: left;
+    font-weight: 900;
+    padding-left: 5em;
+    margin-bottom: 0;
+}
+
+.projects .project-info {
+    text-align: left;
+    padding-left: 5em;
+    padding-right:5em;
+    margin-top: 0;
+}
+
+.experiance .job {
+    text-align: left;
+    font-weight: 900;
+    padding-left: 5em;
+    margin-bottom: 0;
+}
+
+.experiance .date {
+    text-align: left;
+    padding-left: 6em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    color: #A3C8CB;
+}
+
+.experiance .description {
+    text-align: left;
+    padding-left: 6em;
+    margin-top: 0;
+}
+
+.education {
+    text-align: left;
+    padding-left: 5em;
+    height: 12em;
+
+}
+
+.title {
+    border-top-color: #DEE4E2!important;
+    border-bottom-color: #A3C8CB!important;
+    border-top-width: 2px!important;
+    border-bottom-width: 2px!important;
+    
+}
+.footer {
+    color: #A3C8CB;
+    border-top-color: #A3C8CB!important;
+    border-top-width: 2px!important;
+    width: 35em;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.footer a {
+    color: #A3C8CB;   
+}
+
+.info {
+    width: 35em;
+    height: 35em;
+    background-color: #A3C8CB;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2%;
+}
+
+.container {
+    margin: 2em;
+    height: 31em;
+}
+
+form {
+    margin: 0 auto;
+  width: 20em;
+  padding: 1em;
+  align-content: center;
+ 
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+  color: white;
+  padding-bottom: 4px;
+  font-weight: 900;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  height: 2em;
+  border-radius: 8px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 15em;
+}
+
+.button {
+    padding: 0em !important;
+}
+
+button {
+    background-color: white;
+    width: 300px;
+    height: 2em;
+    color: #A3C8CB;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    
+ }
